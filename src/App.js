@@ -12,6 +12,9 @@ import BlogPage from './pages/BlogPage';
 import SurveysPage from './pages/SurveysPage';
 import ContactPage from './pages/ContactPage';
 
+// Blog Components
+import BlogPost from './components/BlogPost';
+
 // Styles
 import './App.css';
 import './index.css';
@@ -35,6 +38,7 @@ function App() {
                 
                 {/* Blog */}
                 <Route path="/blog" element={<BlogPage />} />
+                <Route path="/blog/:slug" element={<BlogPost />} />
                 
                 {/* Anketler */}
                 <Route path="/anketler" element={<SurveysPage />} />
