@@ -106,7 +106,8 @@ const BlogPage = () => {
 
                   <Link
                     to={`/blog/${post.slug}`}
-                    className="bg-mydentor-primary text-white font-nunito font-bold py-2 px-4 rounded-lg shadow-md hover:bg-purple-700 transition-colors self-start"
+                    className="inline-block bg-mydentor-primary text-white font-nunito font-bold py-3 px-6 rounded-lg shadow-md hover:bg-purple-700 transition-colors cursor-pointer text-center relative z-10"
+                    style={{ textDecoration: 'none' }}
                   >
                     Devamını Oku
                   </Link>
