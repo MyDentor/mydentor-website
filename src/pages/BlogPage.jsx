@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import { blogService } from '../services/blogService';
@@ -38,7 +37,7 @@ const BlogPage = () => {
     <>
       <Helmet>
         <title>Blog | MyDentor - Ağız Sağlığı Rehberi</title>
-        <meta name="description" content="Ağız sağlığı hakkında bilmeniz gereken her şey, Dentor AI'nin anlaşılır diliyle. Diş bakımı, diş ipi kullanımı, çocuk diş sağlığı ve daha fazlası." />
+        <meta name="description" content="Ağız sağlığı hakkında bilmeniz gereken her şey, Dentor AI'nin anlaşılır diliyle. Diş bakımı, diş ipi kullanımı, çocuk diş sağlığı ve daha fazlası burada!" />
         <meta name="keywords" content="ağız sağlığı blog, diş bakımı rehberi, diş ipi kullanımı, çocuk diş sağlığı, dentor blog, mydentor blog" />
         <meta property="og:title" content="Blog | MyDentor - Ağız Sağlığı Rehberi" />
         <meta property="og:description" content="Ağız sağlığı hakkında bilmeniz gereken her şey, Dentor AI'nin anlaşılır diliyle." />
@@ -104,19 +103,20 @@ const BlogPage = () => {
                     </div>
                   </div>
 
-                  <Link
-                    to={`/blog/${post.slug}`}
+                  {/* DÜZELTİLMİŞ Devamını Oku Butonu */}
+                  <a
+                    href={`/blog/${post.slug}`}
                     className="inline-block bg-mydentor-primary text-white font-nunito font-bold py-3 px-6 rounded-lg shadow-md hover:bg-purple-700 transition-colors cursor-pointer text-center relative z-10"
                     style={{ textDecoration: 'none' }}
                   >
                     Devamını Oku
-                  </Link>
+                  </a>
                 </div>
               </motion.div>
             ))}
           </div>
 
-          {/* Bottom Section */}
+          {/* Alt Bilgi/Bilgilendirme Bölümü */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -136,13 +136,10 @@ const BlogPage = () => {
                 🔸 <strong>Samimiyet:</strong> Sıcak, halktan dil &nbsp;&nbsp;
                 🔹 <strong>Empati:</strong> Destekleyici ve anlayışlı
               </p>
-              
               <div className="text-center">
                 <p className="text-gray-700 font-poppins mb-6">
                   Daha fazla içerik için bizi takip etmeye devam edin. Her hafta yeni makaleler ekliyoruz.
                 </p>
-                
-                {/* Newsletter subscription or social links can go here */}
                 <div className="flex justify-center space-x-4">
                   <a 
                     href="https://instagram.com/dt.berkyldrm" 
