@@ -90,7 +90,7 @@ Bu alternatifler, klasik diş ipi kadar etkili olmasa da, hiç temizlik yapmamak
 
 Diş ipi kullanmak, ağız sağlığınız için yapabileceğiniz en değerli yatırımlardan biridir. Doğru teknik ve düzenli kullanımla, diş ve diş eti sorunlarını önleyebilir, daha sağlıklı bir gülüşe kavuşabilirsiniz.
 
-Giden gitmiştir, isyan edip fırçalamamazlık yapma, diğerleri bari kalsın. Diş ipi kullanmaye bugün başlayın ve farkı hissedin!
+Giden gitmiştir, isyan edip fırçalamamazlık yapma, diğerleri bari kalsın. Diş ipi kullanmaya bugün başlayın ve farkı hissedin!
 
 ---
 
