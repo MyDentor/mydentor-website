@@ -14,7 +14,6 @@ const BlogPage = () => {
         setBlogPosts(posts);
         setLoading(false);
       } catch (error) {
-        console.error('Blog yazıları yüklenirken hata:', error);
         setLoading(false);
       }
     };
