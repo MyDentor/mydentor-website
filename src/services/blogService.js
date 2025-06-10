@@ -59,7 +59,6 @@ const loadMarkdownContent = async (filename) => {
     }
     return await response.text();
   } catch (error) {
-    console.error('Error loading markdown:', error);
     return null;
   }
 };
