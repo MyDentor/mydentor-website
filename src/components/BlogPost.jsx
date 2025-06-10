@@ -42,7 +42,6 @@ const BlogPost = () => {
         setContent(markdownContent);
         setLoading(false);
       } catch (err) {
-        console.error('Blog yükleme hatası:', err);
         setError('Blog yazısı yüklenirken bir hata oluştu');
         setLoading(false);
       }
